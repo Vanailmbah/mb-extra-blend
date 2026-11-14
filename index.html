@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NexusCorp | Modern Solutions</title>
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<!-- Custom CSS -->
+<link href="style.css" rel="stylesheet" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="90">
+
+<!-- Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container">
+        <a class="navbar-brand" href="#home" id="brandDisplay">MB<span>Extra Blend</span></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <header id="home">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner" id="carouselInner">
+            <div class="carousel-item active">
+            <img src="./bright-eliya-fPIBUqnZkCY-unsplash.jpg" alt="Slide 1" />
+            <div class="carousel-caption text-center px-3">
+                <h1 class="mb-3">Crown Your Confidence with Expert Hair Styling</h1>
+                <p class="mb-4">Precision cuts, stunning braids, and custom textures crafted to bring out your best look.</p>
+                <a href="#services" class="btn btn-primary btn-lg px-4 py-2 fw-semibold">Explore Services</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./rosa-rafael-pxax5WuM7eY-unsplash.jpg" alt="Slide 2" />
+            <div class="carousel-caption text-center px-3">
+                <h1 class="mb-3">Flawless Makeup Artistry</h1>
+                <p class="mb-4">From bridal glam to bold evening looks, we enhance your natural radiance.</p>
+                <a href="#about" class="btn btn-outline-light btn-lg px-4 py-2 fw-semibold">Learn About Us</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./shamblen-studios-xwM61TPMlYk-unsplash.jpg" alt="Slide 3" />
+            <div class="carousel-caption text-center px-3">
+                <h1 class="mb-3">The Ultimate Glam Experience</h1>
+                <p class="mb-4">Combine our signature hair and makeup services for a stunning transformation.</p>
+                <a href="#contact" class="btn btn-primary btn-lg px-4 py-2 fw-semibold">Get In Touch</a>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+        </div>
+    </header>
+
+    <!-- Services (Square Image Boxes Only, No Descriptions) -->
+    <section id="services">
+        <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-tag">What We Offer</span>
+            <h2 class="section-title">Transform your look with our expert hair braiding and flawless makeup.</h2>
+        </div>
+        <div class="row g-4" id="servicesGrid">
+            <div class="col-12 col-sm-6 col-lg-4"><div class="service-image-box">
+                <imgsrc="./pinImages/adel-grober-wOrA2uWstYg-unsplash.jpg" alt="Service 1" /></div></div>
+            <div class="col-12 col-sm-6 col-lg-4"><div class="service-image-box">
+                <img src="./fast-incorporated-0OOaj5fsE-s-unsplash.jpg" alt="Service 2" /></div></div>
+            <div class="col-12 col-sm-6 col-lg-4"><div class="service-image-box">
+                <img src="./fernanda-nuso-amr8fdAVhtg-unsplash.jpg" alt="Service 3" /></div></div>
+            <div class="col-12 col-sm-6 col-lg-4"><div class="service-image-box">
+                <img src="./gylain-omer-HvYE_AeaytE-unsplash.jpg" alt="Service 4" /></div></div>
+            <div class="col-12 col-sm-6 col-lg-4"><div class="service-image-box">
+                <img src="./lisa-marie-theck-pYbL3vd9CQI-unsplash.jpg" alt="Service 5" /></div></div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="service-image-box"><img src="./lola-azizada-I3y-aJ4DWng-unsplash.jpg" alt="Service 6" /></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+            <div class="about-img-wrapper">
+                <img id="aboutImageDisplay" src="./MB Extra Blend Beauty Emblem.png" alt="About Us" />
+            </div>
+            </div>
+            <div class="col-lg-6">
+            <span class="section-tag">Who We Are</span>
+            <h2 class="section-title mb-3" id="aboutHeadingDisplay">Enhancing Natural Beauty Through Expert Artistry & Care</h2>
+            <p class="text-secondary fs-6 lh-lg mb-4" id="aboutText1Display">We are a passionate team of beauty professionals dedicated to delivering stunning hair and makeup looks tailored to your unique style and every special occasion.</p>
+            <p class="text-secondary fs-6 lh-lg mb-4" id="aboutText2Display">Every appointment is guided by open communication, genuine care, and meticulous attention to detail.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+            <div class="contact-card text-center">
+                <span class="section-tag">Reach Out Directly</span>
+                <h2 class="section-title mb-3">Contact Us</h2>
+                <p class="text-secondary mb-4 mx-auto" style="max-width: 540px;" id="contactSubtitleDisplay">Tap below to message us directly on WhatsApp or place an immediate phone call.</p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+                <a id="whatsappLink" href="https://wa.me/237655872925?text=Hello" target="_blank" class="btn btn-whatsapp d-inline-flex align-items-center justify-content-center gap-2 fs-6">
+                    <i class="bi bi-whatsapp fs-5"></i><span>Chat on WhatsApp</span>
+                </a>
+                <a id="phoneLink" href="tel:+237600000000" class="btn btn-call d-inline-flex align-items-center justify-content-center gap-2 fs-6">
+                    <i class="bi bi-telephone-fill fs-5"></i><span id="phoneLabelDisplay">Call +237 6 55 87 29 25</span>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer (Copyright Only) -->
+    <footer class="text-center">
+        <div class="container">
+        <p class="mb-0" id="footerCopyrightDisplay">&copy; <span id="currentYear"></span> MB-Extra-Blend. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
